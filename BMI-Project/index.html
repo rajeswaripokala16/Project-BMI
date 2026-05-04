@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hospital</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="title">Welcome To Online Hospital <br />Let's Check Your BMI</h1>
+    <br />
+    <div class="container">
+      <form class="bmi-form">
+        <input
+          type="text"
+          id="username"
+          placeholder="Enter Your Name"
+          required
+        />
+        <input
+          type="number"
+          id="weight"
+          placeholder="Enter Your Weight(kgs)"
+          required
+        />
+        <input
+          type="number"
+          id="height"
+          placeholder="Enter Your Height(cm)"
+          required
+        />
+        <button id="bmi-calculate" class="bmi-button">Calculate</button>
+        <button id="reset" class="bmi-button red">Reset</button>
+        <p id="result"></p>
+      </form>
+      <img src="https://media.istockphoto.com/id/983457502/vector/medical-hospital-building.jpg?s=612x612&w=0&k=20&c=X77dbR1B2qCNN4BsMA_-jIMxmc_nKiLWu3xpIQYLTKM=" id="hosimg" />
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
